@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Maax';
+  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/regular/regular.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/regular/regular.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/regular/regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maax';
+  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/bold/bold.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/bold/bold.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/bold/bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maax';
+  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/italic/italic.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/italic/italic.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/italic/italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Maax';
+  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/boldItalic/boldItalic.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/boldItalic/boldItalic.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/boldItalic/boldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TiemposText';
+  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regular.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regular.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regular.eot');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TiemposText';
+  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regularItalic.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regularItalic.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regularItalic.eot');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Shadows Into Light';
+  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/shadowsintolight/shadowsIntoLight-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.bt-card.description h1, .bt-card.description h2, .bt-card.description h3, .bt-card.description h4, .bt-card.description h5, .bt-card.description h6, .bt-card.description p {
+  font-family: 'Maax','Open Sans', sans-serif ;
+  margin: 0 ;
+  line-height: 1.13 ;
+}
+.bt-card.description h1, .event-name .content{
+  font-size: 2.4rem ;
+  font-weight: bold ;
+  font-family: 'Maax', 'Open Sans', sans-serif;
+}
+
+.bt-card.description h2 {
+  font-size: 4rem ;
+  font-weight: bold ;
+}
+
+.bt-card.description h3{
+  font-size: 2.8rem ;
+  font-weight: bold ;
+}
+
+.bt-card.description h4 {
+  font-size: 2.4rem ;
+  font-weight: bold ;
+}
+
+.bt-card.description h5{
+  font-size: 2rem ;
+  font-weight: bold ;
+}
+
+.bt-card.description h6{
+  font-size: 1.5rem ;
+  font-weight: bold ;
+  letter-spacing: 2px ;
+  text-transform: uppercase ;
+}
+
+.bt-card.description p {
+  font-size: 1.6rem ;
+  line-height: 1.5 ;
+
+}

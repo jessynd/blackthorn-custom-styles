@@ -1,27 +1,27 @@
 @font-face {
   font-family: 'Maax';
-  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/regular/regular.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/regular/regular.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/regular/regular.ttf') format('truetype');
+  src: url('/fonts/regular/regular.woff2') format('woff2'), url('/fonts/regular/regular.woff') format('woff'), url('/fonts/regular/regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Maax';
-  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/bold/bold.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/bold/bold.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/bold/bold.ttf') format('truetype');
+  src: url('/fonts/bold/bold.woff2') format('woff2'), url('/fonts/bold/bold.woff') format('woff'), url('/fonts/bold/bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Maax';
-  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/italic/italic.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/italic/italic.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/italic/italic.ttf') format('truetype');
+  src: url('/fonts/italic/italic.woff2') format('woff2'), url('/fonts/italic/italic.woff') format('woff'), url('/fonts/italic/italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Maax';
-  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/boldItalic/boldItalic.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/boldItalic/boldItalic.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/maax/boldItalic/boldItalic.ttf') format('truetype');
+  src: url('/fonts/boldItalic/boldItalic.woff2') format('woff2'), url('/fonts/boldItalic/boldItalic.woff') format('woff'), url('/fonts/boldItalic/boldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
 }

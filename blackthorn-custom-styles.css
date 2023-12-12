@@ -113,3 +113,11 @@ button.get-tickets-button {
   font-weight: 700;
   background: #ec0919 !important;
 }
+
+.details {
+  background-color: #f7f7f6;
+}
+
+.bt-card-header {
+  border-bottom: none;
+}

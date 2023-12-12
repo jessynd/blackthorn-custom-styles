@@ -106,6 +106,9 @@ button.get-tickets-button {
   font-weight: 700;
 }
 
+.get-tickets-button {
+  background: transparent !important;
+}
 
 .details {
   background-color: #f7f7f6;

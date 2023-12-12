@@ -106,13 +106,6 @@ button.get-tickets-button {
   font-weight: 700;
 }
 
-.ng-star-inserted {
-  font-family: 'Maax', 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  font-weight: 700;
-  background: #ec0919 !important;
-}
 
 .details {
   background-color: #f7f7f6;

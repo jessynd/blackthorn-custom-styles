@@ -26,27 +26,6 @@
   font-style: italic;
 }
 
-@font-face {
-  font-family: 'TiemposText';
-  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regular.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regular.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regular.eot');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'TiemposText';
-  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regularItalic.woff2') format('woff2'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regularItalic.woff') format('woff'), url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/tiempostext/regularItalic.eot');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Shadows Into Light';
-  src: url('//canadalearningcode.ca/wp.bt-card.description/themes/twg/src/fonts/shadowsintolight/shadowsIntoLight-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 .bt-card.description h1, .bt-card.description h2, .bt-card.description h3, .bt-card.description h4, .bt-card.description h5, .bt-card.description h6, .bt-card.description p {
@@ -91,4 +70,37 @@
   font-size: 1.6rem ;
   line-height: 1.5 ;
 
+}
+
+
+button.get-tickets-button {
+  border: 2px solid #ec0919;
+  background: transparent !important;
+  color: #ec0919 !important;
+  display: inline-block;
+  padding: 1.5rem 3.5rem;
+  border-radius: 25px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+..mat-button,
+.mat-fab,
+.mat-flat-button,
+.mat-icon-button,
+.mat-mini-fab,
+.mat-raised-button,
+.mat-stroked-button {
+  font-family: 'Maax', 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
 }

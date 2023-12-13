@@ -117,3 +117,18 @@ button.get-tickets-button {
 .bt-card-header {
   border-bottom: none;
 }
+
+
+h2.organizer-name, .price span{
+  font-size: 1rem;
+  letter-spacing: .5px;
+  padding-right: .5rem;
+  color: #232323;
+  font-family: 'Maax', 'Open Sans', sans-serif;
+}
+
+.bt-date-badge__month {
+  background-color: #ec0919!important;
+  font-weight: 700;
+  font-family: 'Maax', 'Open Sans', sans-serif;
+}

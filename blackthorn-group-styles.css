@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+--primaryColorOriginal: #0f4c81 !important;
+--primaryColorOriginalForceDark: #7f0d1b !important;
+--primaryColorOriginalForceLight: #8af9f3 !important;
+--primaryColorOriginalContrast: #84bef1 !important;
+--primaryColorOriginalDarkened: #232323 !important;
+--primaryColorOriginalLightened: #eafffe !important;
+--primaryColorOriginalHover: #7f0d1b !important;
+--primaryColorOriginalActive: #232323 !important;
+--primaryColor: #ec0919 !important;
+--accentColor: #107E7A !important;
+
+
+
+.grid-item .event-details .event-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.event-details .start-date {
+  font-family: 'Open Sans', sans-serif;
+  color: #107E7A !important;
+}
+
+.event__whenAndWhere {
+  font-family: Maax, "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #565656;
+    text-transform: uppercase;
+}
+
+
+.grid-item {
+  box-shadow: 0 10px 75px -20px #969696 !important;
+}
+

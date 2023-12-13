@@ -79,7 +79,7 @@
 }
 
 .bt-card.description p {
-  font-size: 18px ;
+  font-size: 18px !important;
   line-height: 1.5 ;
 }
 

@@ -57,7 +57,7 @@ header.appbar {
 .grid-item {
   width: calc(98%/var(--grid-items-per-row)) !important;
   padding: 0px !important;
-  margin-right: 0.66 !important;
+  margin-right: 0.66% !important;
 }
 
 .grid-item:nth-child(4n) {

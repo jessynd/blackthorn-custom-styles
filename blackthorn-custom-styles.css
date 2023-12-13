@@ -121,11 +121,11 @@ button.get-tickets-button {
 }
 
 .details {
-  background-color: #f7f7f6;
+  background-color: #f7f7f6 !important;
 }
 
 .bt-card-header {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 

@@ -79,9 +79,8 @@
 }
 
 .bt-card.description p {
-  font-size: 1.6rem ;
+  font-size: 18px ;
   line-height: 1.5 ;
-
 }
 
 button.get-tickets-button {
@@ -130,7 +129,7 @@ button.get-tickets-button {
 }
 
 
-h2.organizer-name, .price span{
+h2.organizer-name, .price .starting-price span{
   font-size: 1rem;
   letter-spacing: .5px;
   padding-right: .5rem;

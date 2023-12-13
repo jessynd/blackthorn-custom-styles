@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Maax';
   src: url('/fonts/regular/regular.woff2') format('woff2'), url('/fonts/regular/regular.woff') format('woff'), url('/fonts/regular/regular.ttf') format('truetype');
   font-weight: 400;
@@ -24,7 +24,7 @@
   src: url('/fonts/boldItalic/boldItalic.woff2') format('woff2'), url('/fonts/boldItalic/boldItalic.woff') format('woff'), url('/fonts/boldItalic/boldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
@@ -41,14 +41,14 @@
 --accentColor: #107E7A !important;
 
 .bt-card.description h1, .bt-card.description h2, .bt-card.description h3, .bt-card.description h4, .bt-card.description h5, .bt-card.description h6, .bt-card.description p {
-  font-family: 'Maax','Open Sans', sans-serif ;
+  font-family: 'Open Sans', sans-serif ;
   margin: 0 ;
   line-height: 1.13 ;
 }
 .bt-card.description h1, .event-name .content{
   font-size: 1.9rem ;
   font-weight: bold ;
-  font-family: 'Maax', 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .bt-card.description h2 {
@@ -88,7 +88,7 @@ button.get-tickets-button {
   background: transparent !important;
   color: #ec0919 !important;
   display: inline-block;
-  padding: 1rem 0.9rem;
+  padding: 0.5rem 0.9rem;
   border-radius: 25px;
   font-size: 1.3rem;
   font-weight: 700;
@@ -110,7 +110,7 @@ button.get-tickets-button {
 .mat-mini-fab,
 .mat-raised-button,
 .mat-stroked-button {
-  font-family: 'Maax', 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 700;
@@ -134,11 +134,25 @@ h2.organizer-name, .price .starting-price span{
   letter-spacing: .5px;
   padding-right: .5rem;
   color: #232323;
-  font-family: 'Maax', 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .bt-date-badge__month {
   background-color: #ec0919!important;
   font-weight: 700;
-  font-family: 'Maax', 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
+
+.start-date::before {
+  background: #107E7A!important;
+}
+
+.ticket-price::before {
+  color: #ec0919 !important;
+}
+
+.mat-icon {
+  color: #107E7A !important;
+}
+
+

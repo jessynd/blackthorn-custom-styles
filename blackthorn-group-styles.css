@@ -49,3 +49,10 @@
 header.appbar {
   background: #d2fbf9 !important;
 }
+
+.grid-renderer {
+  justify-content: space-between !important;
+}
+.grid-item {
+  width: calc(98%/var(--grid-items-per-row)) !important;
+}

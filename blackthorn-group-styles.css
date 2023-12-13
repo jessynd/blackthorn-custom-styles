@@ -64,6 +64,9 @@ header.appbar {
   margin-right: 0px !important;
 }
 
+.category-item.selected {
+  border-left-color: #ec0919 !important;
+}
 
 @media (max-width: 37.4375rem) {
   .grid-item {

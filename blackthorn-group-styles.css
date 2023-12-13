@@ -25,8 +25,10 @@
 }
 
 .event-details .start-date {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   color: #107E7A !important;
+  line-height: 1.2 !important;
+  margin-bottom: 10px !important;
 }
 
 .event__whenAndWhere {

@@ -54,9 +54,6 @@ header.appbar {
   background: #d2fbf9 !important;
 }
 
-.grid-renderer {
-  justify-content: space-between !important;
-}
 .grid-item {
   width: calc(98%/var(--grid-items-per-row)) !important;
   padding: 0px !important;
@@ -66,7 +63,7 @@ header.appbar {
 .grid-item:nth-child(4n) {
   margin-right: 0px !important;
 }
-        
+
 
 @media (max-width: 37.4375rem) {
   .grid-item {

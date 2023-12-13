@@ -35,6 +35,17 @@
 
 
 .grid-item {
-  box-shadow: 0 10px 75px -20px #969696 !important;
+  box-shadow: 0 0px 75px -20px #969696 !important;
 }
 
+.keyword-container {
+  display: none !important;
+}
+
+#search-field {
+  background: #FFFFFF !important;
+}
+
+header.appbar {
+  background: #d2fbf9 !important;
+}
